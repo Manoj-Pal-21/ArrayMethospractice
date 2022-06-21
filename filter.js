@@ -9,6 +9,14 @@ function isEven(value) {
 
 console.log(even);
 
+
+
+
+const odd = numbers.filter((value) => {
+  return value % 2;
+});
+console.log(odd);
+
 // Ex : 2
 
 const people = [
